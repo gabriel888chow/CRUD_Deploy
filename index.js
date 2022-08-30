@@ -13,7 +13,7 @@ import mysql from 'mysql2';
 // import { createApiResponse } from './src/models/model.js';
 
 const app = express();
-require("dotenv").config();
+// require("dotenv").config();
 // const router = express.Router();
 
 
