@@ -1,13 +1,13 @@
 
 // const loginurlRouter = require('./src/routes/controllers/api/loginurl')
 
-const express = require('express');
-const cors = require("cors");
-const mysql = require('mysql2');
+// const express = require('express');
+// const cors = require("cors");
+// const mysql = require('mysql2');
 
-// import express from 'express';
-// import cors from 'cors';
-// import mysql from 'mysql2';
+import express from 'express';
+import cors from 'cors';
+import mysql from 'mysql2';
 // import loginurlRouter from './src/routes/controllers/api/loginurl';
 // import { getAuthCodeUrl } from './src/utilities/polyusso.js';
 // import { createApiResponse } from './src/models/model.js';
