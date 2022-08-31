@@ -21,15 +21,22 @@ app.use(cors());
 app.use(express.json());
 
 
+// const db = mysql.createConnection({
+//     // port: 3306,
+//     user: 'root',
+//     host: 'localhost',
+//     password: 'Ar082246',
+//     database: "namecard",
+//     // useConnectionPooling: true,
+// });
 const db = mysql.createConnection({
     // port: 3306,
-    user: 'root',
-    host: 'localhost',
-    password: 'Ar082246',
-    database: "namecard",
+    user: 'b40c0e99a8b7d5',
+    host: 'us-cdbr-east-06.cleardb.net',
+    password: '6776f123',
+    database: "heroku_1f93fcf9bbd4653",
     // useConnectionPooling: true,
 });
-
 
 app.post('/create', (req, res) => {
     console.log(req.body);
